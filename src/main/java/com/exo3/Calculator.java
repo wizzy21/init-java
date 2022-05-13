@@ -94,8 +94,13 @@ public class Calculator {
                 break;
         }
 
+       /* System.out.println(String.format("Opération demandée : %d %s %d", firstNumber, operator, secondNumber));
+        System.out.println(String.format("Résultat : %d", result));*/
+
         return result;
+
     }
+
 
     public long add(long a, long b) {
         return a + b;
